@@ -1,6 +1,6 @@
 version: '3.9'
 services:
-    php-7.4:
+    php-7.4-apache:
         build: .
         expose:
             - 9000:80
